@@ -91,12 +91,10 @@
             ],
             "scripts": []
           }
+          
         },
         "deploy": {
-        "builder": "@angular-cli-ghpages:deploy",
-          "options": {
-            "baseHref": "/angular-calc/"
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
