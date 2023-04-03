@@ -1,0 +1,18 @@
+<div class = "background">
+  <div class = "Box">
+
+    <form class = "elements">
+
+      <input type="number" name="num1" [(ngModel)]="num1" class="input">
+      <input type="number" name="num2" [(ngModel)]="num2" class="input"><p>
+     
+      <button (click)="somar()" class="button">somar</button>
+      <button (click)="subtrair()" class="button">subtrair</button>
+      <button (click)="multiplicar()" class="button">multiplicar</button>
+      <button (click)="dividir()" class="button">dividir</button>
+
+    </form>
+    <input [value]="result" class="resultado">
+  </div>
+</div>
+  
