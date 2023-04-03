@@ -91,12 +91,12 @@
             ],
             "scripts": []
           }
-
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "baseHref": "/angular-calc/"
+          }
         }
       }
     }
@@ -105,4 +105,4 @@
     "analytics": "868f82cc-d665-4e31-9369-7f2f0cd8ea97"
   }
   }
-}
+
